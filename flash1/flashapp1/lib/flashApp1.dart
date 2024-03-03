@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class flashApp1 extends StatefulWidget {
-  const flashApp1({super.key});
+class FlashApp1 extends StatefulWidget {
+  const FlashApp1({super.key});
 
   @override
-  State createState() => _flashApp1State();
+  State createState() => _FlashApp1State();
 }
 
-class _flashApp1State extends State {
+class _FlashApp1State extends State {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
