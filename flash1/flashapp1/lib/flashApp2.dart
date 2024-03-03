@@ -1,19 +1,20 @@
 import 'package:flutter/material.dart';
 
-class flashApp1 extends StatefulWidget {
-  const flashApp1({super.key});
+class flashApp2 extends StatefulWidget {
+  const flashApp2({super.key});
 
   @override
-  State createState() => _flashApp1State();
+  State createState() => _flashApp2State();
 }
 
-class _flashApp1State extends State {
+class _flashApp2State extends State {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue,
         centerTitle: true,
-        title: const Text("flash1"),
+        title: const Text("flash2"),
         leading: Row(
           children: [
             GestureDetector(child: const Icon(Icons.person)),
@@ -25,6 +26,9 @@ class _flashApp1State extends State {
           ),
           GestureDetector(
             child: const Icon(Icons.join_left_outlined),
+          ),
+          GestureDetector(
+            child: const Icon(Icons.help),
           ),
         ],
       ),
