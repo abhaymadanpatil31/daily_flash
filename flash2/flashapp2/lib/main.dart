@@ -1,4 +1,8 @@
-import 'package:flashapp2/flashApp1.dart';
+// import 'package:flashapp2/flashApp1.dart';
+// import 'package:flashapp2/flashApp2.dart';
+// import 'package:flashapp2/flashApp3.dart';
+// import 'package:flashapp2/flashApp4.dart';
+import 'package:flashapp2/flashApp5.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +15,8 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-     home:FlashApp1(),
+      debugShowCheckedModeBanner: false,
+      home: FlashApp5(),
     );
   }
 }
