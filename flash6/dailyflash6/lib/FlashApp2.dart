@@ -45,10 +45,6 @@ class _FlashApp2State extends State {
             ),
             ElevatedButton(
               onPressed: () {},
-              child: const Text(
-                "Add",
-                selectionColor: Colors.amber,
-              ),
               style: ElevatedButton.styleFrom(
                 textStyle: const TextStyle(
                     fontSize: 30,
@@ -57,6 +53,10 @@ class _FlashApp2State extends State {
                 backgroundColor: Colors.purple,
                 fixedSize: Size.infinite,
                 foregroundColor: Colors.amber,
+              ),
+              child: const Text(
+                "Add",
+                selectionColor: Colors.amber,
               ),
             ),
           ],
